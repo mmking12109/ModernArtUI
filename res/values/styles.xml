@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- The theme applied to the application or activity-->
+    <style name="PurpleActionBarTheme"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle">@style/PurpleActionBar</item>
+
+        <!-- Support library compatibility-->
+        <item name="actionBarStyle">@style/PurpleActionBar</item>
+    </style>
+
+    <!-- ActionBar styles-->
+    <style name="PurpleActionBar"
+        parent="Base.Widget.AppCompat.Light.ActionBar.Solid">
+
+        <item name="android:background">@color/violet</item>
+
+        <!-- Support library compatibility-->
+        <item name="background">@color/violet</item>
+    </style>
+
+</resources>
